@@ -191,6 +191,21 @@ public class MinHeap {
      * THIS IS YOUR ASSIGNMENT
      */
     private void heapifyUp() {
+        // starts at the end of the heap.
+        int child = this.usage - 1;
+        // Loop as long as the child is not at the index 0.
+        while (child > 0) {
+            // Find the index of parent.
+            int parent = parent(child);
+            // If parent value greather than child value then swap them.
+            if (parent >= 0 && this.underlying[parent] > this.underlying[child]) {
+                swap(parent, child);
+                child = parent;
+            } else {
+                // If the parent is smaller or equal then dont swap hold.
+                break;
+            }
+        }
     } // method heapifyUp
 
     /**
