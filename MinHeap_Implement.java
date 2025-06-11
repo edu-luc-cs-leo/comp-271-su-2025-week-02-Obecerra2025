@@ -1,5 +1,3 @@
-import java.util.Arrays; // for printing only, using toString()
-
 public class MinHeap_Implement {
 
     // ANSI escape codes for terminal print formatting
