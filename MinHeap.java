@@ -1,3 +1,4 @@
+import java.util.Arrays; // only for Arrays.toString() printing
 /**
  * Simple object implemention of the minimum-heap
  */
