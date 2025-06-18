@@ -145,7 +145,7 @@ public class MinHeap {
         // Done; return the smallest value of the underlying array that we grabbed
         // before reorganizing things a bit.
         return smallest_value;
-    } // method getSmallest
+    } // method getSmallest ....
 
     /**
      * Adds a new value to the Min Heap. The underlying array is resized to
